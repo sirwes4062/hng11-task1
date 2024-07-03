@@ -9,12 +9,13 @@
   <body>
     <div class="container">
       <section class="myDetails">
-        <img
-          src="slackProfilePicture.jpg"
-          alt="slackProifilePicture"
-          data-testid="slackProfilePicture"
-          width="100%"
-          height="100%" />
+        <div class="myImgContainer">
+          <img
+            src="slackProfilePicture.png"
+            alt="slackProifilePicture"
+            data-testid="slackProfilePicture"
+           />
+        </div>
         <div class="userDetail">
           <h1 data-testid="slackDisplayName">Salifu Williams</h1>
           <p class="dateContainer">
@@ -27,17 +28,17 @@
           <p data-testid="slackEmail">williamseneojo@gmail.com</p>
         </div>
         <div class="linksContainer">
-          <a href="http://hng.tech/learn" data-testid="hngLink" target="_blank"
-            >HNG Website</a
+          <button href="http://hng.tech/learn" data-testid="hngLink" target="_blank"
+            >Link To HNG Website</button
           >
-          <a href="http://keyword.dog" data-testid="keywordLink" target="_blank"
-            >Keyword Dog Link</a
+          <button href="http://keyword.dog" data-testid="keywordLink" target="_blank"
+            >Link To Keyword Dog Link</button
           >
-          <a
+          <button
             href="http://scrapeanyweb.site"
             data-testid="scrapeanywebLink"
             target="_blank"
-            >ScrapeAnyWeb Link</a
+            >Link To ScrapeAnyWeb Link</button
           >
         </div>
       </section>
